@@ -1,0 +1,72 @@
+body{
+    background-color: aqua;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;    
+}
+.form-login{
+    border: 2px solid red;
+    width: 800px;
+    margin: 50px auto;
+    background-color: white;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    transition: all .7s ease;    
+}
+.form-login:hover{
+    box-shadow: 4px 3px indigo;
+}
+.form-login input{
+    margin-top: 50px;
+    color: black;
+}
+input{
+    height: 45px;
+}
+form .submit{
+    background: aqua;
+    border-color: transparent;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 100px;
+    width: 400px;
+    transform: rotateY(0deg);
+    transition-duration: 1s;
+}
+form .submit:hover{
+    transform: rotateY(-360deg);
+    width: 600px;
+    transition: width .5s;
+    background: lawngreen;
+    cursor: pointer;
+}
+.form-input{
+    background: transparent;
+    width: 400px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid red;
+    margin-bottom: 16px;
+    font-size: 18px;
+    color: white;
+}
+.form-input:focus{
+    width: 600px;
+    transition: width .5s;
+}
+.form-login .img{
+    /* width: 60px; */
+    height: 60px;
+    border-radius: 50px;
+    
+}
+.chat .user-photo img{
+    /* width: 100%; */
+}
+img{
+    width: 100px;
+    border-radius: 50px;
+}
